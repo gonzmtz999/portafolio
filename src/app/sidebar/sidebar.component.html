@@ -1,0 +1,30 @@
+<div class="wrapper">
+    <!-- <div class="wrapper animate__animated animate__fadeInUp"> -->
+    <div class="pre-title animate__animated animate__fadeInUp animation-1">¡Holaaa, mi nombre es:
+    </div>
+    <h1 #asTitle class="title animate__animated animate__fadeInUp animation-2"></h1>
+    <h2 class="sub-title animate__animated animate__fadeInUp animation-4">¡Me apasiona la tecnología! :D</h2>
+    <p class="description animate__animated animate__fadeInUp animation-5">Soy estudiante de la universidad tecnologica
+        de Tehuacán, proximo egresado del programa educativo
+        de Ingeniería en Desarrollo y Gestión de Software, espero este portafolio sea de su agrado, aqui pueden
+        visualizarce algunos proyectos que e hecho, tengo más preferencia al desarrollo web pero cualquier lenguaje
+        de programación o framework nuevo a aprender con gusto yo lo hare, siempre me gustan :)
+    </p>
+    <hr class="animate__animated animate__fadeInUp animation-6">
+    <div class="videoWrapper animate__animated animate__fadeInUp animation-7">
+        <img class="imgGift" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif"
+            alt="Programador">
+    </div>
+    <div class="linkWrapper animate__animated animate__fadeInUp animation-9">
+        <hr>
+        <div class="links d-flex flex-wrap">
+            <div class="block col-12 col-lg-3" *ngFor="let link of links">
+                <a [href]="link.link" target="_blank">
+                    <div class="blockIn">
+                        <span [innerHTML]="link.icon"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

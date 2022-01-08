@@ -1,0 +1,28 @@
+<div class="wrapper">
+    <div class="scroll animate__animated animate__fadeInUp animation-1">
+        <div class="row">
+            <div class="blockRepo col-12 col-sm-12 col-md-12 col-lg-4 animate__animated animate__fadeInUp animation-{{ i * 2 }}"
+                *ngFor="let work of list;let i = index">
+                <div class="blockRepoIn">
+                    <div class="text">
+                        <h1 class="centrado">{{ work.title }}</h1>
+                        <!-- <div class="left"> -->
+                        <p>{{ work.descripcion }}</p>
+                        <p>{{ work.date }}</p>
+                        <div class="centrado">
+                            <a class="links" [href]="work.url" target="_blank">
+                                <i class="centrado uil uil-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="right"> -->
+
+
+                        <!-- </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

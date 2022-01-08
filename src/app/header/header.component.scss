@@ -1,0 +1,30 @@
+.wrapper{
+    display: flex;
+    // position: static;
+    color: white;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+    align-content: center;
+    background-color: #003049;
+    border:solid 0.01rem white;
+    box-shadow: 0 0 2rem #3C3C3C;
+ 
+    .section-2{
+        .list-menu{
+            list-style: none;
+            margin:0;
+            padding:0;
+            display: flex;
+            .item-menu{
+                padding:0 1rem;
+                cursor: pointer;
+                .link-number{
+                    padding: 0 .5rem;
+                }
+            }
+        }
+    }
+}
+
+    
